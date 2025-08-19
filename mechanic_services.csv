@@ -1,0 +1,49 @@
+category,service_name,applicable_to
+Engine Services,Engine Oil Change,Both
+Engine Services,Engine Repair,Both
+Engine Services,Engine Overhaul,Both
+Engine Services,Engine Diagnostics,Both
+Engine Services,Oil Filter Replacement,Both
+Engine Services,Air Filter Replacement,Both
+Engine Services,Fuel Filter Replacement,Both
+Electrical Services,Battery Replacement,Both
+Electrical Services,Battery Jump Start,Both
+Electrical Services,Alternator Repair,Both
+Electrical Services,Starter Motor Repair,Both
+Electrical Services,Wiring Issues,Both
+Electrical Services,Light Repair,Both
+Electrical Services,Horn Repair,Both
+Transmission Services,Clutch Repair,Depends
+Transmission Services,Gear Box Repair,Depends
+Transmission Services,Transmission Oil Change,Depends
+Transmission Services,Clutch Cable Replacement,Depends
+Brake Services,Brake Pad Replacement,Depends
+Brake Services,Brake Oil Change,Depends
+Brake Services,Brake Repair,Depends
+Brake Services,Brake Cable Adjustment,Depends
+Tire Services,Tire Replacement,Depends
+Tire Services,Tire Puncture Repair,Depends
+Tire Services,Wheel Alignment,Depends
+Tire Services,Wheel Balancing,Depends
+Tire Services,Tire Pressure Check,Depends
+AC Services,AC Gas Refill,Depends
+AC Services,AC Compressor Repair,Depends
+AC Services,AC Filter Replacement,Depends
+AC Services,AC Vent Cleaning,Depends
+Body Services,Denting,Depends
+Body Services,Painting,Depends
+Body Services,Scratch Removal,Depends
+Body Services,Body Part Replacement,Depends
+Suspension Services,Shock Absorber Replacement,Depends
+Suspension Services,Spring Replacement,Depends
+Suspension Services,Suspension Repair,Depends
+Emergency Services,Roadside Assistance,Both
+Emergency Services,Towing Service,Both
+Emergency Services,Fuel Delivery,Both
+Emergency Services,Lock Opening Service,Both
+Emergency Services,Emergency Repair,Both
+Regular Maintenance,General Service,Depends
+Regular Maintenance,Pre-Purchase Inspection,Depends
+Regular Maintenance,Periodic Maintenance,Depends
+Regular Maintenance,Washing & Cleaning,Depends
+Regular Maintenance,Chain Cleaning (2 Wheeler),Depends

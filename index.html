@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadFix - On-Road Mechanic Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="loginScreen" class="screen active">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-header">
+                    <h1>🔧 RoadFix</h1>
+                    <p>Professional On-Road Mechanic Services</p>
+                </div>
+                
+                <div class="user-type-selector">
+                    <button id="customerLoginBtn" class="btn btn--primary user-type-btn active">
+                        👤 Customer Login
+                    </button>
+                    <button id="mechanicLoginBtn" class="btn btn--outline user-type-btn">
+                        🔧 Mechanic Login
+                    </button>
+                </div>
+
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" id="password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                </form>
+
+                <div class="auth-links">
+                    <p>Don't have an account? <a href="#" id="signupLink">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vehicle Selection Screen -->
+    <div id="vehicleScreen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <h2>Select Your Vehicle</h2>
+                <button id="logoutBtn" class="btn btn--outline btn--sm">Logout</button>
+            </div>
+
+            <div class="vehicle-selection">
+                <div class="vehicle-type-cards">
+                    <div class="vehicle-card" data-type="2 Wheeler">
+                        <div class="vehicle-icon">🏍️</div>
+                        <h3>2 Wheeler</h3>
+                        <p>Motorcycles & Scooters</p>
+                    </div>
+                    <div class="vehicle-card" data-type="4 Wheeler">
+                        <div class="vehicle-icon">🚗</div>
+                        <h3>4 Wheeler</h3>
+                        <p>Cars & Vehicles</p>
+                    </div>
+                </div>
+
+                <div id="vehicleDetails" class="vehicle-details" style="display: none;">
+                    <div class="form-group">
+                        <label class="form-label" for="brandSelect">Select Brand</label>
+                        <select id="brandSelect" class="form-control">
+                            <option value="">Choose Brand...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="modelSelect">Select Model</label>
+                        <select id="modelSelect" class="form-control" disabled>
+                            <option value="">Choose Model...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="fuelSelect">Fuel Type</label>
+                        <select id="fuelSelect" class="form-control">
+                            <option value="">Select Fuel Type...</option>
+                            <option value="Petrol">Petrol</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="CNG">CNG</option>
+                            <option value="Electric">Electric</option>
+                            <option value="Hybrid">Hybrid</option>
+                        </select>
+                    </div>
+
+                    <button id="proceedToServices" class="btn btn--primary btn--full-width" disabled>
+                        Proceed to Services
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Selection Screen -->
+    <div id="serviceScreen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button id="backToVehicle" class="btn btn--outline btn--sm">← Back</button>
+                <h2>Select Services</h2>
+                <button id="logoutBtn2" class="btn btn--outline btn--sm">Logout</button>
+            </div>
+
+            <div class="selected-vehicle-info">
+                <h3>Vehicle Details</h3>
+                <div id="vehicleInfoDisplay" class="vehicle-info-display"></div>
+            </div>
+
+            <div class="service-categories">
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Engine Services">
+                        🔧 Engine Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Engine Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Electrical Services">
+                        ⚡ Electrical Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Electrical Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Brake Services">
+                        🛑 Brake Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Brake Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Tire Services">
+                        🛞 Tire Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Tire Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="AC Services">
+                        ❄️ AC Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="AC Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Emergency Services">
+                        🚨 Emergency Services <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Emergency Services"></div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-header" data-category="Regular Maintenance">
+                        🧰 Regular Maintenance <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="category-services" id="Regular Maintenance"></div>
+                </div>
+            </div>
+
+            <div class="selected-services-summary" id="servicesSummary" style="display: none;">
+                <h3>Selected Services</h3>
+                <div id="selectedServicesList"></div>
+                <div class="total-cost">
+                    <strong>Total: ₹<span id="totalCost">0</span></strong>
+                    <br>
+                    <small>Estimated Time: <span id="totalTime">0 mins</span></small>
+                </div>
+                <button id="proceedToBooking" class="btn btn--primary btn--full-width">
+                    Proceed to Booking
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Screen -->
+    <div id="bookingScreen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button id="backToServices" class="btn btn--outline btn--sm">← Back</button>
+                <h2>Book Your Service</h2>
+                <button id="logoutBtn3" class="btn btn--outline btn--sm">Logout</button>
+            </div>
+
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <label class="form-label" for="customerName">Full Name</label>
+                    <input type="text" id="customerName" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="customerPhone">Phone Number</label>
+                    <input type="tel" id="customerPhone" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="serviceLocation">Service Location</label>
+                    <textarea id="serviceLocation" class="form-control" rows="3" placeholder="Enter your complete address..." required></textarea>
+                    <button type="button" id="getLocationBtn" class="btn btn--outline btn--sm mt-8">📍 Get Current Location</button>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="serviceDate">Preferred Date</label>
+                    <input type="date" id="serviceDate" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="serviceTime">Preferred Time</label>
+                    <select id="serviceTime" class="form-control" required>
+                        <option value="">Select Time...</option>
+                        <option value="09:00">9:00 AM</option>
+                        <option value="10:00">10:00 AM</option>
+                        <option value="11:00">11:00 AM</option>
+                        <option value="12:00">12:00 PM</option>
+                        <option value="13:00">1:00 PM</option>
+                        <option value="14:00">2:00 PM</option>
+                        <option value="15:00">3:00 PM</option>
+                        <option value="16:00">4:00 PM</option>
+                        <option value="17:00">5:00 PM</option>
+                        <option value="18:00">6:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="specialInstructions">Special Instructions (Optional)</label>
+                    <textarea id="specialInstructions" class="form-control" rows="3" placeholder="Any specific requirements or notes..."></textarea>
+                </div>
+
+                <div class="booking-summary">
+                    <h3>Booking Summary</h3>
+                    <div id="bookingSummaryContent"></div>
+                </div>
+
+                <div class="emergency-booking">
+                    <label class="form-label">
+                        <input type="checkbox" id="emergencyBooking"> Emergency Service (Book Immediately)
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--full-width">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mechanic Dashboard -->
+    <div id="mechanicDashboard" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <h2>Mechanic Dashboard</h2>
+                <button id="logoutBtn4" class="btn btn--outline btn--sm">Logout</button>
+            </div>
+
+            <div class="dashboard-stats">
+                <div class="stat-card">
+                    <h3>Pending Requests</h3>
+                    <div class="stat-number" id="pendingCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Completed Today</h3>
+                    <div class="stat-number" id="completedCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Earnings</h3>
+                    <div class="stat-number">₹<span id="earningsCount">0</span></div>
+                </div>
+            </div>
+
+            <div class="booking-requests">
+                <h3>Service Requests</h3>
+                <div id="bookingRequestsList" class="requests-list">
+                    <!-- Requests will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Dashboard -->
+    <div id="customerDashboard" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <h2>My Bookings</h2>
+                <button id="logoutBtn5" class="btn btn--outline btn--sm">Logout</button>
+            </div>
+
+            <div class="quick-actions">
+                <button id="newBookingBtn" class="btn btn--primary">+ New Booking</button>
+                <button id="emergencyBtn" class="btn btn--outline">🚨 Emergency Service</button>
+            </div>
+
+            <div class="booking-history">
+                <h3>Recent Bookings</h3>
+                <div id="customerBookingsList" class="bookings-list">
+                    <!-- Bookings will be populated here -->
+                </div>
+            </div>
+
+            <div class="saved-vehicles">
+                <h3>My Vehicles</h3>
+                <div id="savedVehiclesList" class="vehicles-list">
+                    <!-- Saved vehicles will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Confirmation Modal -->
+    <div id="confirmationModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>🎉 Booking Confirmed!</h3>
+            <p>Your service request has been submitted successfully.</p>
+            <div id="bookingConfirmationDetails"></div>
+            <div class="modal-actions">
+                <button id="viewDashboardBtn" class="btn btn--primary">View Dashboard</button>
+                <button id="trackServiceBtn" class="btn btn--outline">Track Service</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Processing your request...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
