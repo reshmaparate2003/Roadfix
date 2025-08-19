@@ -1,0 +1,161 @@
+brand,model,vehicle_type,category
+Maruti Suzuki,Alto,4 Wheeler,Car
+Maruti Suzuki,Swift,4 Wheeler,Car
+Maruti Suzuki,Dzire,4 Wheeler,Car
+Maruti Suzuki,Baleno,4 Wheeler,Car
+Maruti Suzuki,Wagon R,4 Wheeler,Car
+Maruti Suzuki,Celerio,4 Wheeler,Car
+Maruti Suzuki,Ignis,4 Wheeler,Car
+Maruti Suzuki,S-Presso,4 Wheeler,Car
+Maruti Suzuki,Ertiga,4 Wheeler,Car
+Maruti Suzuki,XL6,4 Wheeler,Car
+Maruti Suzuki,Vitara Brezza,4 Wheeler,Car
+Maruti Suzuki,S-Cross,4 Wheeler,Car
+Maruti Suzuki,Ciaz,4 Wheeler,Car
+Maruti Suzuki,Grand Vitara,4 Wheeler,Car
+Hyundai,i10 Nios,4 Wheeler,Car
+Hyundai,i20,4 Wheeler,Car
+Hyundai,Aura,4 Wheeler,Car
+Hyundai,Verna,4 Wheeler,Car
+Hyundai,Venue,4 Wheeler,Car
+Hyundai,Creta,4 Wheeler,Car
+Hyundai,Alcazar,4 Wheeler,Car
+Hyundai,Tucson,4 Wheeler,Car
+Hyundai,Kona Electric,4 Wheeler,Car
+Hyundai,Ioniq 5,4 Wheeler,Car
+Tata Motors,Tiago,4 Wheeler,Car
+Tata Motors,Tigor,4 Wheeler,Car
+Tata Motors,Altroz,4 Wheeler,Car
+Tata Motors,Punch,4 Wheeler,Car
+Tata Motors,Nexon,4 Wheeler,Car
+Tata Motors,Safari,4 Wheeler,Car
+Tata Motors,Harrier,4 Wheeler,Car
+Tata Motors,Nexon EV,4 Wheeler,Car
+Tata Motors,Tigor EV,4 Wheeler,Car
+Mahindra,KUV100,4 Wheeler,Car
+Mahindra,XUV300,4 Wheeler,Car
+Mahindra,Bolero,4 Wheeler,Car
+Mahindra,Scorpio,4 Wheeler,Car
+Mahindra,Scorpio N,4 Wheeler,Car
+Mahindra,XUV700,4 Wheeler,Car
+Mahindra,Thar,4 Wheeler,Car
+Mahindra,XUV400,4 Wheeler,Car
+Mahindra,BE 6e,4 Wheeler,Car
+Honda,Amaze,4 Wheeler,Car
+Honda,Jazz,4 Wheeler,Car
+Honda,City,4 Wheeler,Car
+Honda,WR-V,4 Wheeler,Car
+Honda,Elevate,4 Wheeler,Car
+Toyota,Glanza,4 Wheeler,Car
+Toyota,Urban Cruiser Hyryder,4 Wheeler,Car
+Toyota,Yaris,4 Wheeler,Car
+Toyota,Camry,4 Wheeler,Car
+Toyota,Fortuner,4 Wheeler,Car
+Toyota,Innova Crysta,4 Wheeler,Car
+Toyota,Vellfire,4 Wheeler,Car
+Toyota,Land Cruiser,4 Wheeler,Car
+Kia,Sonet,4 Wheeler,Car
+Kia,Seltos,4 Wheeler,Car
+Kia,Carens,4 Wheeler,Car
+Kia,Carnival,4 Wheeler,Car
+Kia,EV6,4 Wheeler,Car
+MG Motor,Hector,4 Wheeler,Car
+MG Motor,Hector Plus,4 Wheeler,Car
+MG Motor,Astor,4 Wheeler,Car
+MG Motor,ZS EV,4 Wheeler,Car
+MG Motor,Comet EV,4 Wheeler,Car
+Skoda,Kushaq,4 Wheeler,Car
+Skoda,Slavia,4 Wheeler,Car
+Skoda,Superb,4 Wheeler,Car
+Skoda,Kodiaq,4 Wheeler,Car
+Skoda,Octavia,4 Wheeler,Car
+Volkswagen,Polo,4 Wheeler,Car
+Volkswagen,Vento,4 Wheeler,Car
+Volkswagen,Taigun,4 Wheeler,Car
+Volkswagen,Virtus,4 Wheeler,Car
+Volkswagen,Tiguan,4 Wheeler,Car
+Renault,Kwid,4 Wheeler,Car
+Renault,Triber,4 Wheeler,Car
+Renault,Kiger,4 Wheeler,Car
+Renault,Duster,4 Wheeler,Car
+Nissan,Magnite,4 Wheeler,Car
+Nissan,Kicks,4 Wheeler,Car
+Nissan,Sunny,4 Wheeler,Car
+Nissan,X-Trail,4 Wheeler,Car
+Hero MotoCorp,Splendor Plus,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,HF Deluxe,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Passion Pro,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Super Splendor,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Glamour,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Xtreme 160R,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Xpulse 200,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Maestro Edge,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Pleasure Plus,2 Wheeler,Motorcycle/Scooter
+Hero MotoCorp,Destini 125,2 Wheeler,Motorcycle/Scooter
+Honda,Activa 125,2 Wheeler,Motorcycle/Scooter
+Honda,Activa 6G,2 Wheeler,Motorcycle/Scooter
+Honda,Dio,2 Wheeler,Motorcycle/Scooter
+Honda,Grazia,2 Wheeler,Motorcycle/Scooter
+Honda,SP 125,2 Wheeler,Motorcycle/Scooter
+Honda,Shine,2 Wheeler,Motorcycle/Scooter
+Honda,CB Hornet 160R,2 Wheeler,Motorcycle/Scooter
+Honda,Unicorn,2 Wheeler,Motorcycle/Scooter
+Honda,X-Blade,2 Wheeler,Motorcycle/Scooter
+Honda,Livo,2 Wheeler,Motorcycle/Scooter
+Bajaj,Platina,2 Wheeler,Motorcycle/Scooter
+Bajaj,CT 100,2 Wheeler,Motorcycle/Scooter
+Bajaj,Pulsar 125,2 Wheeler,Motorcycle/Scooter
+Bajaj,Pulsar 150,2 Wheeler,Motorcycle/Scooter
+Bajaj,Pulsar 200,2 Wheeler,Motorcycle/Scooter
+Bajaj,Pulsar NS200,2 Wheeler,Motorcycle/Scooter
+Bajaj,Avenger,2 Wheeler,Motorcycle/Scooter
+Bajaj,Dominar 400,2 Wheeler,Motorcycle/Scooter
+Bajaj,Chetak Electric,2 Wheeler,Motorcycle/Scooter
+TVS,Jupiter,2 Wheeler,Motorcycle/Scooter
+TVS,Ntorq 125,2 Wheeler,Motorcycle/Scooter
+TVS,Pep+,2 Wheeler,Motorcycle/Scooter
+TVS,XL100,2 Wheeler,Motorcycle/Scooter
+TVS,Radeon,2 Wheeler,Motorcycle/Scooter
+TVS,Apache RTR 160,2 Wheeler,Motorcycle/Scooter
+TVS,Apache RTR 200,2 Wheeler,Motorcycle/Scooter
+TVS,Apache RR 310,2 Wheeler,Motorcycle/Scooter
+TVS,iQube Electric,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Classic 350,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Bullet 350,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Himalayan,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Interceptor 650,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Continental GT 650,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Meteor 350,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Hunter 350,2 Wheeler,Motorcycle/Scooter
+Royal Enfield,Scram 411,2 Wheeler,Motorcycle/Scooter
+Yamaha,Fascino 125,2 Wheeler,Motorcycle/Scooter
+Yamaha,Ray ZR,2 Wheeler,Motorcycle/Scooter
+Yamaha,FZ-S,2 Wheeler,Motorcycle/Scooter
+Yamaha,FZ 25,2 Wheeler,Motorcycle/Scooter
+Yamaha,MT-15,2 Wheeler,Motorcycle/Scooter
+Yamaha,R15 V4,2 Wheeler,Motorcycle/Scooter
+Yamaha,Aerox 155,2 Wheeler,Motorcycle/Scooter
+Suzuki,Access 125,2 Wheeler,Motorcycle/Scooter
+Suzuki,Burgman Street,2 Wheeler,Motorcycle/Scooter
+Suzuki,Gixxer,2 Wheeler,Motorcycle/Scooter
+Suzuki,Gixxer SF,2 Wheeler,Motorcycle/Scooter
+Suzuki,Intruder,2 Wheeler,Motorcycle/Scooter
+Suzuki,Hayabusa,2 Wheeler,Motorcycle/Scooter
+KTM,Duke 125,2 Wheeler,Motorcycle/Scooter
+KTM,Duke 200,2 Wheeler,Motorcycle/Scooter
+KTM,Duke 250,2 Wheeler,Motorcycle/Scooter
+KTM,Duke 390,2 Wheeler,Motorcycle/Scooter
+KTM,RC 200,2 Wheeler,Motorcycle/Scooter
+KTM,RC 390,2 Wheeler,Motorcycle/Scooter
+KTM,Adventure 250,2 Wheeler,Motorcycle/Scooter
+KTM,Adventure 390,2 Wheeler,Motorcycle/Scooter
+Kawasaki,Ninja 300,2 Wheeler,Motorcycle/Scooter
+Kawasaki,Ninja 650,2 Wheeler,Motorcycle/Scooter
+Kawasaki,Z650,2 Wheeler,Motorcycle/Scooter
+Kawasaki,Versys 650,2 Wheeler,Motorcycle/Scooter
+Kawasaki,Ninja ZX-10R,2 Wheeler,Motorcycle/Scooter
+Harley-Davidson,Street 750,2 Wheeler,Motorcycle/Scooter
+Harley-Davidson,Iron 883,2 Wheeler,Motorcycle/Scooter
+Harley-Davidson,Forty-Eight,2 Wheeler,Motorcycle/Scooter
+Harley-Davidson,Street Glide,2 Wheeler,Motorcycle/Scooter
+Harley-Davidson,Road King,2 Wheeler,Motorcycle/Scooter
